@@ -127,7 +127,7 @@ public class CSE extends AppCompatActivity {
 
             case R.id.Jabed_Al_Faysal:
                 name = "Jabed Al Faysal\nLecturer";
-                number = "01977662888";
+                number = "01942295838";
                 break;
 
             case R.id.Anupam_Kumar:
