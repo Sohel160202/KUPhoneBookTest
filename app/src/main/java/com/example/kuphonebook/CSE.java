@@ -27,7 +27,7 @@ public class CSE extends AppCompatActivity {
 
 
             case R.id.Anisur_Rahman:
-                name = "“Dr. Md. Anisur Rahman\nProfessor";
+                name = "Dr. Md. Anisur Rahman\nProfessor";
                 number = "041720171";
                 break;
 
@@ -42,7 +42,7 @@ public class CSE extends AppCompatActivity {
                 break;
 
             case R.id.Rameswar_Debnath:
-                name = "“Dr. Rameswar Debnath\nProfessor";
+                name = "Dr. Rameswar Debnath\nProfessor";
                 number = "01715182784";
                 break;
 
@@ -57,7 +57,7 @@ public class CSE extends AppCompatActivity {
                 break;
 
             case R.id.Atiqur_Rahman:
-                name = "“Dr. G M Atiqur Rahaman\nProfessor";
+                name = "Dr. G M Atiqur Rahaman\nProfessor";
                 number = "01715712877";
                 break;
 
@@ -82,7 +82,7 @@ public class CSE extends AppCompatActivity {
 
             case R.id.Zahidul_Islam:
                 name = "Md. Zahidul Islam\nAssistant Professor";
-                number = "0412831551";
+                number = "0417201713";
                 break;
 
             case R.id.Amit_Kumar:
