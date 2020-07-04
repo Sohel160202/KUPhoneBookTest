@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Architecture"></activity>
+        <activity android:name=".physics"></activity>
+        <activity android:name=".URP" />
+        <activity android:name=".Architecture" />
         <activity android:name=".TeacherProfile" />
         <activity android:name=".CSE" />
         <activity android:name=".SetSchool" />
