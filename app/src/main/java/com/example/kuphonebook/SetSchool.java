@@ -14,6 +14,7 @@ public class SetSchool extends AppCompatActivity {
     public ImageView Archi;
     public ImageView URP;
     public ImageView Physics;
+    public ImageView ECE;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,15 @@ public class SetSchool extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SetSchool.this, physics.class);
+                startActivity(intent);
+                return;
+            }
+        });
+
+        ECE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SetSchool.this, ECE.class);
                 startActivity(intent);
                 return;
             }
