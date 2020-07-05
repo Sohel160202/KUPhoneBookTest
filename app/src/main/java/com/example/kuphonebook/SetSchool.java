@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 public class SetSchool extends AppCompatActivity {
@@ -14,7 +13,7 @@ public class SetSchool extends AppCompatActivity {
     public ImageView Archi;
     public ImageView URP;
     public ImageView Physics;
-    public ImageView ECE;
+    public ImageView ece;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +21,10 @@ public class SetSchool extends AppCompatActivity {
         setContentView(R.layout.activity_set_school);
 
         CSE = findViewById(R.id.CSE);
-        Archi = findViewById(R.id.Archi);
+        Archi = findViewById(R.id.Architecture);
         URP = findViewById(R.id.URP);
         Physics = findViewById(R.id.Physics);
+        ece = findViewById(R.id.ECE);
 
         CSE.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,13 +60,5 @@ public class SetSchool extends AppCompatActivity {
             }
         });
 
-        ECE.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(SetSchool.this, ECE.class);
-                startActivity(intent);
-                return;
-            }
-        });
     }
 }

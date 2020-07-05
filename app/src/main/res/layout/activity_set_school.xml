@@ -65,7 +65,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <ImageView
-            android:id="@+id/Archi"
+            android:id="@+id/Architecture"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -109,14 +109,14 @@
             app:srcCompat="@drawable/cse_text" />
 
         <ImageView
-            android:id="@+id/Cse_Icon"
+            android:id="@+id/CSE_Icon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             app:layout_constraintEnd_toStartOf="@+id/CSEBox"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Archi"
+            app:layout_constraintTop_toBottomOf="@+id/SET"
             app:srcCompat="@drawable/cse_icon" />
 
         <ImageView
@@ -146,7 +146,7 @@
             android:layout_marginTop="23dp"
             app:layout_constraintEnd_toStartOf="@+id/URPBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/CSE"
+            app:layout_constraintTop_toBottomOf="@+id/MBA"
             app:srcCompat="@drawable/urp_icon" />
 
         <ImageView
@@ -177,7 +177,7 @@
             android:layout_marginTop="24dp"
             app:layout_constraintEnd_toStartOf="@+id/EceBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/URP"
+            app:layout_constraintTop_toBottomOf="@+id/Life_Science"
             app:srcCompat="@drawable/ece_icon" />
 
         <ImageView
@@ -208,7 +208,7 @@
             android:layout_marginTop="24dp"
             app:layout_constraintEnd_toStartOf="@+id/MathBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ECE"
+            app:layout_constraintTop_toBottomOf="@+id/Social_Science"
             app:srcCompat="@drawable/math_icon" />
 
         <ImageView
@@ -239,7 +239,7 @@
             android:layout_marginTop="24dp"
             app:layout_constraintEnd_toStartOf="@+id/PhysicsBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Math"
+            app:layout_constraintTop_toBottomOf="@+id/Arts_Humanities"
             app:srcCompat="@drawable/physics_icon" />
 
         <ImageView
@@ -270,7 +270,7 @@
             android:layout_marginTop="23dp"
             app:layout_constraintEnd_toStartOf="@+id/ChemistryBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Physics"
+            app:layout_constraintTop_toBottomOf="@+id/FineArts"
             app:srcCompat="@drawable/chemistry_icon" />
 
         <ImageView
@@ -283,7 +283,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <ImageView
-            android:id="@+id/Stat"
+            android:id="@+id/Statistics"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="@+id/StatBox"
@@ -301,7 +301,7 @@
             android:layout_marginTop="24dp"
             app:layout_constraintEnd_toStartOf="@+id/StatBox"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Chemistry"
+            app:layout_constraintTop_toBottomOf="@+id/Law"
             app:srcCompat="@drawable/stat_icon" />
 
 

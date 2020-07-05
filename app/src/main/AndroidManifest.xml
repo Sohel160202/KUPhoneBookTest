@@ -11,8 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Math"></activity>
-        <activity android:name=".ECE" />
+        <activity android:name=".MBASchool"></activity>
         <activity android:name=".physics" />
         <activity android:name=".URP" />
         <activity android:name=".Architecture" />
