@@ -35,13 +35,13 @@
             android:id="@+id/HeadlineText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
             app:layout_constraintBottom_toBottomOf="@+id/HeadlineBox"
             app:layout_constraintEnd_toEndOf="@+id/HeadlineBox"
             app:layout_constraintTop_toTopOf="@+id/HeadlineBox"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@drawable/cse_text" />
+            app:srcCompat="@drawable/archi_text" />
 
         <ImageView
             android:id="@+id/Headline_Icon"
@@ -53,7 +53,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/HeadlineBox"
             app:layout_constraintTop_toTopOf="@+id/HeadlineBox"
-            app:srcCompat="@drawable/cse_icon" />
+            app:srcCompat="@drawable/archi_icon" />
 
         <ImageView
             android:id="@+id/imageView4"
