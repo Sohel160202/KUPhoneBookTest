@@ -35,25 +35,25 @@
             android:id="@+id/HeadlineText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginRight="110dp"
             app:layout_constraintBottom_toBottomOf="@+id/HeadlineBox"
             app:layout_constraintEnd_toEndOf="@+id/HeadlineBox"
             app:layout_constraintTop_toTopOf="@+id/HeadlineBox"
             app:layout_constraintVertical_bias="1.0"
-            app:srcCompat="@drawable/cse_text" />
+            app:srcCompat="@drawable/physics_text" />
 
         <ImageView
             android:id="@+id/Headline_Icon"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             android:tint="#FA8D8F"
             app:layout_constraintEnd_toStartOf="@+id/HeadlineText"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/HeadlineBox"
             app:layout_constraintTop_toTopOf="@+id/HeadlineBox"
-            app:srcCompat="@drawable/cse_icon" />
+            app:srcCompat="@drawable/physics_icon" />
 
         <ImageView
             android:id="@+id/imageView4"
