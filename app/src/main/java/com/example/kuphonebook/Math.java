@@ -17,120 +17,81 @@ public class Math extends AppCompatActivity {
 
     public void click(View view) {
         switch (view.getId()) {
-            case R.id.Rafiqul_Islam:
-                name = "Dr. Md. Rafiqul Islam\nProfessor";
-                number = "0412831551";
+            case R.id.Md_Rafiqul_Islam:
+                name = "Dr. Md. Rafiqul Islam \n Professor";
+                number = "01914066279";
                 break;
 
 
-            case R.id.Anisur_Rahman:
-                name = "Dr. Md. Anisur Rahman\nProfessor";
-                number = "041720171";
+            case R.id.Md_Mahmud_Alam:
+                name = "Dr. Md. Mahmud Alam \n Professor";
+                number = "01912982811";
                 break;
 
-            case R.id.Kamrul_Hasan:
-                name = "Dr. Kamrul Hasan Talukder\nProfessor";
-                number = "8801925687763";
+            case R.id.Haider_Ali_Biswas:
+                name = "Dr. Md. Haider Ali Biswas \n Professor";
+                number = "01711948396";
                 break;
 
-            case R.id.Shah_Nawaz:
-                name = "Dr. Kazi Shah Nawaz Ripon\nProfessor";
-                number = "0412831551";
+            case R.id.Munnujahan_Ara:
+                name = "Prof. Dr. Munnujahan Ara \\n Professor";
+                number = "01716341664";
                 break;
 
-            case R.id.Rameswar_Debnath:
-                name = "Dr. Rameswar Debnath\nProfessor";
-                number = "01715182784";
+            case R.id.Sarder_Firoz_Ahmmed:
+                name = "Prof. Dr. Sarder Firoz Ahmmed \n Professor";
+                number = "01712195877";
                 break;
 
-            case R.id.Rafizul_Haque:
-                name = "Dr. S.M. Rafizul Haque\nProfessor";
-                number = "01736659547";
+            case R.id.Azmol_Huda:
+                name = "Md. Azmol Huda \n Professor";
+                number = "01736658618";
                 break;
 
-            case R.id.Abu_Shamim:
-                name = "Dr. Abu Shamim Mohammad Arif\nProfessor";
-                number = "01556327609";
+            case R.id.Lasker_Ershad_Ali:
+                name = "Dr. Lasker Ershad Ali \n Professor";
+                number = "01780076427";
                 break;
 
-            case R.id.Atiqur_Rahman:
-                name = "Dr. G M Atiqur Rahaman\nProfessor";
+            case R.id.Dr_Nazmul_Islam:
+                name = "Dr. Nazmul Islam \n Associate Professor";
                 number = "01715712877";
                 break;
 
-            case R.id.Alamgir_Hossain:
-                name = "SK Alamgir Hossain\nAssociate Professor";
-                number = "0417201713";
+            case R.id.Ariful_Islam:
+                name = "Ariful Islam \n Associate Professor";
+                number = "00000000000”";
                 break;
 
-            case R.id.Masudul_Alam:
-                name = "Dr. Kazi Masudul Alam\nAssociate Professor";
-                number = "01711149360";
+            case R.id.Mohammad_Wahiduzzaman:
+                name = "Mohammad Wahiduzzaman \nAssociate Professor";
+                number = "01913262715";
                 break;
-            case R.id.Mohidul_Islam:
-                name = "“S. M. Mohidul Islam\nAssociate Professor";
-                number = "01727043774";
-                break;
-
-            case R.id.Manishankar_Mondal:
-                name = "Dr. Manishankar Mondal\nAssistant Professor";
-                number = "01763453388";
+            case R.id.Md_Mohidul_Haque:
+                name = "“Md. Mohidul Haque \n Associate Professor";
+                number = "01733474681";
                 break;
 
-            case R.id.Zahidul_Islam:
-                name = "Md. Zahidul Islam\nAssistant Professor";
-                number = "0417201713";
+            case R.id.Raju_Roy:
+                name = "Raju Roy \n Assistant Professor";
+                number = "01717556664";
                 break;
 
-            case R.id.Amit_Kumar:
-                name = "Amit Kumar Mondal\nAssistant Professor";
-                number = "01722929524";
+            case R.id.Md_Azizur_Rahman:
+                name = "Md. Azizur Rahman \nAssistant Professor";
+                number = "00000000000";
                 break;
 
-            case R.id.Saikat_Mondal:
-                name = "Saikat Mondal\nAssistant Professor";
-                number = "01736560790";
+            case R.id.Uzzwal_Kumar_Mallick:
+                name = "Uzzwal Kumar Mallick \n Assistant Professor";
+                number = "01718833878";
                 break;
 
-            case R.id.Sarfaraz_Newaz:
-                name = "Sarfaraz Newaz\nAssistant Professor";
-                number = "8801911046898";
+            case R.id.Abdus_Samad:
+                name = "Sk. Abdus Samad \n Lecturer ";
+                number = "01950616321";
                 break;
-
-            case R.id.Ratna_Saha:
-                name = "“Ratna Saha\nLecturer";
-                number = "0417201713";
-                break;
-
-            case R.id.Debasish_Chakroborti:
-                name = "Debasish Chakroborti\nLecturer";
-                number = "01718836714";
-                break;
-
-            case R.id.Fatima_Tabassum:
-                name = "Fatima Tabassum\nLecturer";
-                number = "0417201713";
-                break;
-
-            case R.id.Aysha_Akter:
-                name = "Aysha Akther\nLecturer";
-                number = "01950153793";
-                break;
-
-            case R.id.Atanu_Shome:
-                name = "Atanu Shome\nLecturer";
-                number = "801717250819";
-                break;
-
-            case R.id.Jabed_Al_Faysal:
-                name = "Jabed Al Faysal\nLecturer";
-                number = "01942295838";
-                break;
-
-            case R.id.Anupam_Kumar:
-                name = "Dr. Anupam Kumar Bairagi\nAssociate Professor";
-                number = "01304562229";
-                break;
+                
 
         }
 
