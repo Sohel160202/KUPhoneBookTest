@@ -65,13 +65,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Mohammad_Ismat_Kadir"
+            android:id="@+id/ece_Mohammad_Ismat_Kadir"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Mohammad Ismat Kadir \n Professor "
+            android:text="Dr. Mohammad Ismat Kadir \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView4"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -88,13 +88,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Maniruzzaman"
+            android:id="@+id/ece_Maniruzzaman"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Maniruzzaman\n Professor"
+            android:text="Dr. Md. Maniruzzaman\n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView5"
             app:layout_constraintEnd_toEndOf="@+id/imageView5"
@@ -112,7 +112,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Sohel_Mahmud_Sher"
+            android:id="@+id/ece_Sohel_Mahmud_Sher"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -136,7 +136,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Shamim_Ahsan"
+            android:id="@+id/ece_Shamim_Ahsan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -156,11 +156,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Shamim_Ahsan"
+            app:layout_constraintTop_toBottomOf="@+id/ece_Shamim_Ahsan"
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Mizanur_Rahman"
+            android:id="@+id/ece_Mizanur_Rahman"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -184,7 +184,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Mahbub_Hossain"
+            android:id="@+id/ece_Mahbub_Hossain"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -207,7 +207,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Tariq_Hasan"
+            android:id="@+id/ece_Tariq_Hasan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -231,7 +231,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Abdul_Awal"
+            android:id="@+id/ece_Abdul_Awal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -254,7 +254,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Rafia_Nishat_Toma"
+            android:id="@+id/ece_Rafia_Nishat_Toma"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -277,7 +277,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Nazmul_Hasan"
+            android:id="@+id/ece_Nazmul_Hasan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -302,7 +302,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Uzzal_Biswas"
+            android:id="@+id/ece_Uzzal_Biswas"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -325,7 +325,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Shamsul_Alam"
+            android:id="@+id/ece_Shamsul_Alam"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -350,7 +350,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Abdul_Alim"
+            android:id="@+id/ece_Abdul_Alim"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -374,7 +374,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Younus_Ali"
+            android:id="@+id/ece_Younus_Ali"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -399,7 +399,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Abdullah_Al_Nahid"
+            android:id="@+id/ece_Abdullah_Al_Nahid"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -424,7 +424,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Shakila_Naznin"
+            android:id="@+id/ece_Shakila_Naznin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -449,7 +449,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Ragib_Shakil_Rafi"
+            android:id="@+id/ece_Ragib_Shakil_Rafi"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
@@ -473,7 +473,7 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Sehrish_Khan"
+            android:id="@+id/ece_Sehrish_Khan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"

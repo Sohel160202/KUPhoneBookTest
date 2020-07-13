@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:fitsSystemWindows="true"
-    tools:context=".Math">
+    tools:context=".CSE">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -65,13 +65,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Md_Rafiqul_Islam"
+            android:id="@+id/Uttam_Kumar_Majumder"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Rafiqul Islam \n Professor"
+            android:text="Professor Dr. Uttam Kumar Majumder \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView4"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -88,13 +88,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Md_Mahmud_Alam"
+            android:id="@+id/Masudul_Islam"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Mahmud Alam \n Professor"
+            android:text="Masudul Islam \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView5"
             app:layout_constraintEnd_toEndOf="@+id/imageView5"
@@ -112,13 +112,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Haider_Ali_Biswas"
+            android:id="@+id/Benojir_Ahammed"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Haider Ali Biswas \n Professor"
+            android:text="Benojir Ahammed \nAssistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView7"
             app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -136,13 +136,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Sarder_Firoz_Ahmmed"
+            android:id="@+id/Salauddin_Khan"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Prof. Dr. Sarder Firoz Ahmmed \n Professor"
+            android:text="Md. Salauddin Khan\n Assistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView8"
             app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -156,17 +156,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/math_Sarder_Firoz_Ahmmed"
+            app:layout_constraintTop_toBottomOf="@+id/Shah_Nawaz"
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Munnujahan_Ara"
+            android:id="@+id/Rameswar_Debnath"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Prof. Dr. Munnujahan Ara \n Professor"
+            android:text="Dr. Rameswar Debnath\nProfessor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView9"
             app:layout_constraintEnd_toEndOf="@+id/imageView9"
@@ -184,13 +184,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Azmol_Huda"
+            android:id="@+id/Rafizul_Haque"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Azmol Huda \n Professor"
+            android:text="Dr. S.M. Rafizul Haque\nProfessor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView10"
             app:layout_constraintEnd_toEndOf="@+id/imageView10"
@@ -207,13 +207,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Lasker_Ershad_Ali"
+            android:id="@+id/Abu_Shamim"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Lasker Ershad Ali\nProfessor"
+            android:text="Dr. Abu Shamim Mohammad Arif\nProfessor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView11"
             app:layout_constraintEnd_toEndOf="@+id/imageView11"
@@ -231,13 +231,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Dr_Nazmul_Islam"
+            android:id="@+id/Atiqur_Rahman"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Nazmul Islam \n Associate  Professor"
+            android:text="Dr. G M Atiqur Rahaman\nProfessor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView12"
             app:layout_constraintEnd_toEndOf="@+id/imageView12"
@@ -254,13 +254,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Mohammad_Wahiduzzaman"
+            android:id="@+id/Alamgir_Hossain"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Mohammad Wahiduzzaman \n Associate Professor"
+            android:text="SK Alamgir Hossain\nAssociate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView13"
             app:layout_constraintEnd_toEndOf="@+id/imageView13"
@@ -277,13 +277,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Md_Mohidul_Haque"
+            android:id="@+id/Masudul_Alam"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Mohidul Haque \n Associate Professor"
+            android:text="Dr. Kazi Masudul Alam\nAssociate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView14"
             app:layout_constraintEnd_toEndOf="@+id/imageView14"
@@ -302,13 +302,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Raju_Roy"
+            android:id="@+id/Mohidul_Islam"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Raju Roy \n Assistant Professor "
+            android:text="S. M. Mohidul Islam\nAssociate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView17"
             app:layout_constraintEnd_toEndOf="@+id/imageView17"
@@ -325,13 +325,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Md_Azizur_Rahman"
+            android:id="@+id/Manishankar_Mondal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Azizur Rahman \nAssistant Professor"
+            android:text="Dr. Manishankar Mondal\nAssistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView18"
             app:layout_constraintEnd_toEndOf="@+id/imageView18"
@@ -350,13 +350,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Uzzwal_Kumar_Mallick"
+            android:id="@+id/Zahidul_Islam"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Uzzwal Kumar Mallick \n Assistant Professor"
+            android:text="Md. Zahidul Islam\nAssistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView19"
             app:layout_constraintEnd_toEndOf="@+id/imageView19"
@@ -374,19 +374,219 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Abdus_Samad"
+            android:id="@+id/Amit_Kumar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Sk. Abdus Samad \n Lecturer "
+            android:text="Amit Kumar Mondal\nAssistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView20"
             app:layout_constraintEnd_toEndOf="@+id/imageView20"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageView20"
             app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Saikat_Mondal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Saikat Mondal\nAssistant Professor"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView21"
+            app:layout_constraintEnd_toEndOf="@+id/imageView21"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView21"
+            app:layout_constraintTop_toTopOf="@+id/imageView21" />
+
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Sarfaraz_Newaz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Sarfaraz Newaz\nAssistant Professor"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+            app:layout_constraintEnd_toEndOf="@+id/imageView22"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView22"
+            app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView22"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Ratna_Saha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Ratna Saha\nLecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+            app:layout_constraintEnd_toEndOf="@+id/imageView23"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView23"
+            app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView23"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Debasish_Chakroborti"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Debasish Chakroborti\nLecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+            app:layout_constraintEnd_toEndOf="@+id/imageView24"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView24"
+            app:layout_constraintTop_toTopOf="@+id/imageView24" />
+
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Fatima_Tabassum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Fatima Tabassum\nLecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView25"
+            app:layout_constraintEnd_toEndOf="@+id/imageView25"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView25"
+            app:layout_constraintTop_toTopOf="@+id/imageView25" />
+
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView25"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Aysha_Akter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Aysha Akther\nLecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+            app:layout_constraintEnd_toEndOf="@+id/imageView26"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView26"
+            app:layout_constraintTop_toTopOf="@+id/imageView26" />
+
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView26"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Atanu_Shome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Atanu Shome\nLecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+            app:layout_constraintEnd_toEndOf="@+id/imageView27"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="@+id/imageView27" />
+
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView27"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Jabed_Al_Faysal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Jabed Al Faysal\nLecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+            app:layout_constraintEnd_toEndOf="@+id/imageView28"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView28"
+            app:layout_constraintTop_toTopOf="@+id/imageView28" />
 
 
         <ImageView
@@ -399,13 +599,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/math_Ariful_Islam"
+            android:id="@+id/Anupam_Kumar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Ariful Islam \n Associate Professor"
+            android:text="Dr. Anupam Kumar Bairagi\nAssociate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView29"
             app:layout_constraintEnd_toEndOf="@+id/imageView29"
