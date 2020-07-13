@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MBASchool"></activity>
+        <activity android:name=".Math" />
+        <activity android:name=".ECE" />
         <activity android:name=".physics" />
         <activity android:name=".URP" />
         <activity android:name=".Architecture" />

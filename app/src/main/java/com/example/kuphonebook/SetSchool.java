@@ -14,6 +14,7 @@ public class SetSchool extends AppCompatActivity {
     public ImageView URP;
     public ImageView Physics;
     public ImageView ece;
+    public ImageView math;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class SetSchool extends AppCompatActivity {
         URP = findViewById(R.id.URP);
         Physics = findViewById(R.id.Physics);
         ece = findViewById(R.id.ECE);
+        math = findViewById(R.id.Math);
 
         CSE.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +57,24 @@ public class SetSchool extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SetSchool.this, physics.class);
+                startActivity(intent);
+                return;
+            }
+        });
+
+        math.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SetSchool.this, Math.class);
+                startActivity(intent);
+                return;
+            }
+        });
+
+        ece.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SetSchool.this, ECE.class);
                 startActivity(intent);
                 return;
             }

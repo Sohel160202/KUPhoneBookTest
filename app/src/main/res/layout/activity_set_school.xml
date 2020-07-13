@@ -162,6 +162,7 @@
             android:id="@+id/ECE"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:clickable="true"
             app:layout_constraintBottom_toBottomOf="@+id/EceBox"
             app:layout_constraintEnd_toEndOf="@+id/EceBox"
             app:layout_constraintHorizontal_bias="0.0"
