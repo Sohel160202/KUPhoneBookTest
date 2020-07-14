@@ -30,7 +30,7 @@ public class Chemistry extends AppCompatActivity {
                 break;
 
             case R.id.chem_Kaykobad:
-                name = "Kaykobad Md Rezaul Karim \\n Assistant Professor";
+                name = "Kaykobad Md Rezaul Karim \n Assistant Professor";
                 number = "+601137492014";
                 break;
 
@@ -40,98 +40,90 @@ public class Chemistry extends AppCompatActivity {
                 break;
 
             case R.id.chem_Muhammad_Sarwar_Hossain:
-                name = "Muhammad Sarwar Hossain \\n Assistant Professor";
-                number = "01715182784";
+                name = "Muhammad Sarwar Hossain \n Assistant Professor";
+                number = "+821046636007";
                 break;
 
-            case R.id.Rafizul_Haque:
-                name = "Dr. S.M. Rafizul Haque\nProfessor";
-                number = "01736659547";
+            case R.id.chem_Mahiuddin:
+                name = "Md. Mahiuddin \n Assistant Professor";
+                number = "01726977630 ";
                 break;
 
-            case R.id.Abu_Shamim:
-                name = "Dr. Abu Shamim Mohammad Arif\nProfessor";
-                number = "01556327609";
+            case R.id.chem_Jamil_Ahmed:
+                name = "Dr. Jamil Ahmed \n Assistant Professor";
+                number = "01716602002";
                 break;
 
-            case R.id.Atiqur_Rahman:
-                name = "Dr. G M Atiqur Rahaman\nProfessor";
-                number = "01715712877";
+            case R.id.chem_Kamrul_Hasan:
+                name = "Md. Kamrul Hasan \n Assistant Professor";
+                number = "9815 8616";
                 break;
 
-            case R.id.Alamgir_Hossain:
-                name = "SK Alamgir Hossain\nAssociate Professor";
-                number = "0417201713";
+            case R.id.chem_Muhammad:
+                name = "Muhammad Shamim Al Mamun \n Assistant Professor";
+                number = "01722190049";
                 break;
 
-            case R.id.Masudul_Alam:
-                name = "Dr. Kazi Masudul Alam\nAssociate Professor";
-                number = "01711149360";
+            case R.id.chem_Khairul:
+                name = "Md. Khairul Amin \n Assistant Professor";
+                number = "447448414588";
                 break;
-            case R.id.Mohidul_Islam:
-                name = "“S. M. Mohidul Islam\nAssociate Professor";
-                number = "01727043774";
-                break;
-
-            case R.id.Manishankar_Mondal:
-                name = "Dr. Manishankar Mondal\nAssistant Professor";
-                number = "01763453388";
+            case R.id.chem_Palash_Kumar_Dhar:
+                name = "“Palash Kumar Dhar \n Assistant Professor";
+                number = "01717515948";
                 break;
 
-            case R.id.Zahidul_Islam:
-                name = "Md. Zahidul Islam\nAssistant Professor";
-                number = "0417201713";
+            case R.id.chem_Nusrat_Tazeen_Tonu:
+                name = "Nusrat Tazeen Tonu \n Assistant Professor";
+                number = "01717610574";
                 break;
 
-            case R.id.Amit_Kumar:
-                name = "Amit Kumar Mondal\nAssistant Professor";
-                number = "01722929524";
+            case R.id.chem_Sumon_Chakrabarty:
+                name = "Sumon Chakrabarty \n Assistant Professor";
+                number = "01746375708”,";
                 break;
 
-            case R.id.Saikat_Mondal:
-                name = "Saikat Mondal\nAssistant Professor";
-                number = "01736560790";
+            case R.id.chem_Shishir_Kumar:
+                name = "Shishir Kumar Dey \n Lecture";
+                number = "01717945520";
                 break;
 
-            case R.id.Sarfaraz_Newaz:
-                name = "Sarfaraz Newaz\nAssistant Professor";
-                number = "8801911046898";
+            case R.id.chem_Rumpa_Kundu:
+                name = "Rumpa Kundu \n Lecturer";
+                number = "01751603550";
                 break;
 
-            case R.id.Ratna_Saha:
-                name = "“Ratna Saha\nLecturer";
-                number = "0417201713";
+            case R.id.chem_Jannatul_Naime:
+                name = "Jannatul Naime \n Lecturer";
+                number = "01719416861";
                 break;
 
-            case R.id.Debasish_Chakroborti:
-                name = "Debasish Chakroborti\nLecturer";
-                number = "01718836714";
+            case R.id.chem_Prianka_Saha:
+                name = "“Prianka Saha \n Lecturer";
+                number = "01912161793";
                 break;
 
-            case R.id.Fatima_Tabassum:
-                name = "Fatima Tabassum\nLecturer";
-                number = "0417201713";
+            case R.id.chem_Ahsan_Habib_Kajol:
+                name = "Dr. Md. Ahsan Habib Kajol \n Lecturer";
+                number = "01757840291";
                 break;
 
-            case R.id.Aysha_Akter:
-                name = "Aysha Akther\nLecturer";
-                number = "01950153793";
+            case R.id.chem_Sagar_Kumar:
+                name = "Sagar Kumar Dutta \n Lecturer";
+                number = "01923941593";
                 break;
 
-            case R.id.Atanu_Shome:
-                name = "Atanu Shome\nLecturer";
-                number = "801717250819";
+            case R.id.chem_Rayhan_Khan:
+                name = "Md. Abu Rayhan Khan \n Lecturer";
+                number = "017610420863";
                 break;
 
-            case R.id.Jabed_Al_Faysal:
-                name = "Jabed Al Faysal\nLecturer";
-                number = "01942295838";
+            case R.id.chem_Nazmul_Islam:
+                name = "A.B.M. Nazmul Islam \n Assistant Professor";
+                number = "01716891955”,";
                 break;
 
-            case R.id.Anupam_Kumar:
-                name = "Dr. Anupam Kumar Bairagi\nAssociate Professor";
-                number = "01304562229";
-                break;
+
 
         }
 

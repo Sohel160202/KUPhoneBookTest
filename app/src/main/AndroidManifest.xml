@@ -14,6 +14,8 @@
         <activity android:name=".MBASchool"></activity>
         <activity android:name=".Math" />
         <activity android:name=".ECE" />
+        <activity android:name=".Chemistry" />
+        <activity android:name=".statistic" />
         <activity android:name=".physics" />
         <activity android:name=".URP" />
         <activity android:name=".Architecture" />
