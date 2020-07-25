@@ -104,7 +104,7 @@ public class Economics extends AppCompatActivity {
                 number = "+88041751099";
                 break;
 
-            
+
         }
 
         Intent intent = new Intent(this, TeacherProfile.class);
