@@ -65,7 +65,7 @@ public class DS extends AppCompatActivity {
                 number = "01914780806";
                 break;
 
-            
+
         }
 
         Intent intent = new Intent(this, TeacherProfile.class);
