@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SWE"></activity>
+        <activity android:name=".pharmacy"></activity>
+        <activity android:name=".ES" />
+        <activity android:name=".Sociology" />
+        <activity android:name=".SWE" />
         <activity android:name=".Agrotechnology" />
         <activity android:name=".Forestry" />
         <activity android:name=".Fisheries" />

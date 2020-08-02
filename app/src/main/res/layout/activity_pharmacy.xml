@@ -65,13 +65,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology1"
+            android:id="@+id/Pharmacy1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Sanjoy Kumar Adhikary\nProfessor"
+            android:text="Dr. Samir Kumar Sadhu \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView4"
             app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -88,13 +88,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology2"
+            android:id="@+id/Pharmacy2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Yasin Ali\nProfessor"
+            android:text="Dr. Md. Mustafizur Rahman \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView5"
             app:layout_constraintEnd_toEndOf="@+id/imageView5"
@@ -112,13 +112,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology3"
+            android:id="@+id/Pharmacy3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Khan Golam Quddus\nProfessor"
+            android:text="Dr. Md. Golam Hossain \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView7"
             app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -136,13 +136,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology4"
+            android:id="@+id/Pharmacy4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Monirul Islam\nProfessor"
+            android:text="Dr. Asish Kumar Das \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView8"
             app:layout_constraintEnd_toEndOf="@+id/imageView8"
@@ -156,17 +156,17 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Agrotechnology4"
+            app:layout_constraintTop_toBottomOf="@+id/fish4"
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology5"
+            android:id="@+id/Pharmacy5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. SarderSafiqul Islam\nProfessor"
+            android:text="Dr. Jamil Ahmad Shilpi \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView9"
             app:layout_constraintEnd_toEndOf="@+id/imageView9"
@@ -184,13 +184,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology6"
+            android:id="@+id/Pharmacy6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Mohammad Bashir Ahmed\nProfessor"
+            android:text="Dr. Md. Saifuzzaman \n Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView10"
             app:layout_constraintEnd_toEndOf="@+id/imageView10"
@@ -207,13 +207,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology7"
+            android:id="@+id/Pharmacy7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Shamim Ahmed Kamal Uddin Khan\nProfessor"
+            android:text="Dr. Md. MokaddezSarder \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView11"
             app:layout_constraintEnd_toEndOf="@+id/imageView11"
@@ -231,13 +231,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology8"
+            android:id="@+id/Pharmacy8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Sarwar Jahan\nProfessor"
+            android:text="Gazi Md. Monjur Murshid \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView12"
             app:layout_constraintEnd_toEndOf="@+id/imageView12"
@@ -254,13 +254,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology10"
+            android:id="@+id/Pharmacy10"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Abdul Mannan\nProfessor"
+            android:text="Dr. Md. Amirul Islam \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView13"
             app:layout_constraintEnd_toEndOf="@+id/imageView13"
@@ -277,13 +277,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology11"
+            android:id="@+id/Pharmacy11"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Shafiqul Islam\nProfessor"
+            android:text="Dr. Utpal Kumar Karmakar \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView14"
             app:layout_constraintEnd_toEndOf="@+id/imageView14"
@@ -302,13 +302,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology12"
+            android:id="@+id/Pharmacy12"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Enamul Kabir\nProfessor"
+            android:text="Dr. Md. Iqbal Ahmed \nAssociate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView17"
             app:layout_constraintEnd_toEndOf="@+id/imageView17"
@@ -325,13 +325,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology13"
+            android:id="@+id/Pharmacy13"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Mahtalat Ahmed\nProfessor"
+            android:text="Dr. Nripendra Nath Biswas \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView18"
             app:layout_constraintEnd_toEndOf="@+id/imageView18"
@@ -350,13 +350,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology14"
+            android:id="@+id/Pharmacy14"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Yamin Kabir\nProfessor"
+            android:text="Dr. Shrabanti Dev \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView19"
             app:layout_constraintEnd_toEndOf="@+id/imageView19"
@@ -374,13 +374,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology15"
+            android:id="@+id/Pharmacy15"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Md. Matiul Islam\nProfessor"
+            android:text="Prasanta Paul \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView20"
             app:layout_constraintEnd_toEndOf="@+id/imageView20"
@@ -399,13 +399,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology16"
+            android:id="@+id/Pharmacy16"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md.Zahangir Hossain\nAssociate Professor"
+            android:text="Dr. Israt Zahan Shahid \n Assistant Professor "
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView21"
             app:layout_constraintEnd_toEndOf="@+id/imageView21"
@@ -424,13 +424,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology17"
+            android:id="@+id/Pharmacy17"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Mst. Sabiha Sultana\nAssociate Professor"
+            android:text="Bishwajit Bokshi \n Assistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView22"
             app:layout_constraintEnd_toEndOf="@+id/imageView22"
@@ -449,13 +449,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology18"
+            android:id="@+id/Pharmacy18"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="S. M. Abdullah Al Mamun\nAssociate Professor"
+            android:text="Md.Anisur Rahman \n Assistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView23"
             app:layout_constraintEnd_toEndOf="@+id/imageView23"
@@ -475,13 +475,13 @@
 
 
         <TextView
-            android:id="@+id/Agrotechnology19"
+            android:id="@+id/Pharmacy19"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Shimul Das\nAssociate Professor"
+            android:text="Shamsunnahar Khushi \n Assistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView24"
             app:layout_constraintEnd_toEndOf="@+id/imageView24"
@@ -500,13 +500,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology20"
+            android:id="@+id/Pharmacy20"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Dr. Prosanta Kumar Dash\nAssociate Professor"
+            android:text="Md. Mahadhi Hasan \n Assistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView25"
             app:layout_constraintEnd_toEndOf="@+id/imageView25"
@@ -525,13 +525,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology21"
+            android:id="@+id/Pharmacy21"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Debesh Das\nAssistant Professor"
+            android:text="Md. Anisuzzman \n Assistant Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView26"
             app:layout_constraintEnd_toEndOf="@+id/imageView26"
@@ -550,13 +550,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology22"
+            android:id="@+id/Pharmacy22"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Bidhan Chandro Sarker\nAssistant Professor"
+            android:text="Pritam Kundu \nLecturer"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView27"
             app:layout_constraintEnd_toEndOf="@+id/imageView27"
@@ -575,13 +575,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology23"
+            android:id="@+id/Pharmacy23"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Rahima Nusrat Remme\nAssistant Professor"
+            android:text="Md. Monirul Islam \n Lecturer"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView28"
             app:layout_constraintEnd_toEndOf="@+id/imageView28"
@@ -600,13 +600,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology9"
+            android:id="@+id/Pharmacy9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Rejaul Islam\nProfessor"
+            android:text="Dr. Shaikh Jamal Uddin \n Associate Professor"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView29"
             app:layout_constraintEnd_toEndOf="@+id/imageView29"
@@ -625,13 +625,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology24"
+            android:id="@+id/Pharmacy24"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Mostofa Kamal\nAssistant Professor"
+            android:text="Susmita Paul \n Lecturer"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView30"
             app:layout_constraintEnd_toEndOf="@+id/imageView30"
@@ -649,13 +649,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology25"
+            android:id="@+id/Pharmacy25"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Joyanti Ray\nAssistant Professor"
+            android:text="Most. Farida Khatun \n Lecturer"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView31"
             app:layout_constraintEnd_toEndOf="@+id/imageView31"
@@ -674,13 +674,13 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology26"
+            android:id="@+id/Pharmacy26"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Chhoa Mondal\nAssistant Professor"
+            android:text="Mimi Golder\n Lecturer"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView32"
             app:layout_constraintEnd_toEndOf="@+id/imageView32"
@@ -698,19 +698,44 @@
             app:srcCompat="@drawable/departmentbox" />
 
         <TextView
-            android:id="@+id/Agrotechnology27"
+            android:id="@+id/Pharmacy27"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:gravity="center"
             android:onClick="click"
-            android:text="Md. Maruf Billah\nLecturer"
+            android:text="Rabindra Nath Acharyya. \n Lecturer"
             android:textColor="#F98C8E"
             app:layout_constraintBottom_toBottomOf="@+id/imageView33"
             app:layout_constraintEnd_toEndOf="@+id/imageView33"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/imageView33"
             app:layout_constraintTop_toTopOf="@+id/imageView33" />
+
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <TextView
+            android:id="@+id/Pharmacy28"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:text="Fayad Bin Abdus Salam \n Lecturer"
+            android:textColor="#F98C8E"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+            app:layout_constraintEnd_toEndOf="@+id/imageView34"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView34"
+            app:layout_constraintTop_toTopOf="@+id/imageView34" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
