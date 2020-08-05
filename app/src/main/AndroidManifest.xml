@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pharmacy"></activity>
+        <activity android:name=".BAD"></activity>
+        <activity android:name=".pharmacy" />
         <activity android:name=".ES" />
         <activity android:name=".Sociology" />
         <activity android:name=".SWE" />
