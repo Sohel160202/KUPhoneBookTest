@@ -8,6 +8,8 @@ import android.view.View;
 
 public class Agrotechnology extends AppCompatActivity {
 
+    public String name, number;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
