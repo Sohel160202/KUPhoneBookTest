@@ -9,14 +9,14 @@ import android.widget.ImageView;
 
 public class SetSchool extends AppCompatActivity {
 
-    public ImageView CSE;
-    public ImageView Archi;
-    public ImageView URP;
-    public ImageView Physics;
-    public ImageView ece;
-    public ImageView chemistry;
-    public ImageView Statistics;
-    public ImageView math;
+    private ImageView CSE;
+    private ImageView Archi;
+    private ImageView URP;
+    private ImageView Physics;
+    private ImageView ece;
+    private ImageView chemistry;
+    private ImageView Statistics;
+    private ImageView math;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

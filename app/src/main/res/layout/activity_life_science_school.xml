@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".life_science_school"
+    android:background="@drawable/background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></include>
+
+        <ImageView
+            android:id="@+id/HeadlineBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/headline" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="44dp"
+            android:text="Life Science"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/HeadlineBox"
+            app:layout_constraintTop_toTopOf="@+id/HeadlineBox" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/HeadlineBox"
+            app:layout_constraintTop_toTopOf="@+id/HeadlineBox"
+            app:srcCompat="@drawable/buildingicon" />
+
+        <ImageView
+            android:id="@+id/ArchiBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/HeadlineBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/FWT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/ArchiBox"
+            app:layout_constraintEnd_toEndOf="@+id/ArchiBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/ArchiBox"
+            app:layout_constraintTop_toTopOf="@+id/ArchiBox"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/fwt_text" />
+
+        <ImageView
+            android:id="@+id/FWT_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toStartOf="@+id/ArchiBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/HeadlineBox"
+            app:srcCompat="@drawable/fwt_icon" />
+
+        <ImageView
+            android:id="@+id/CSEBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ArchiBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/FMT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/CSEBox"
+            app:layout_constraintEnd_toEndOf="@+id/CSEBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/CSEBox"
+            app:layout_constraintTop_toTopOf="@+id/CSEBox"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/fmt_text" />
+
+        <ImageView
+            android:id="@+id/FMT_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/CSEBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ArchiBox"
+            app:srcCompat="@drawable/fmt_icon" />
+
+        <ImageView
+            android:id="@+id/URPBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CSEBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/BGE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="TODO"
+            app:layout_constraintBottom_toBottomOf="@+id/URPBox"
+            app:layout_constraintEnd_toEndOf="@+id/URPBox"
+            app:layout_constraintStart_toStartOf="@+id/URPBox"
+            app:layout_constraintTop_toTopOf="@+id/URPBox"
+            app:srcCompat="@drawable/bge_text" />
+
+        <ImageView
+            android:id="@+id/BGE_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/URPBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CSEBox"
+            app:srcCompat="@drawable/bge_icon" />
+
+        <ImageView
+            android:id="@+id/EceBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/URPBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/AT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/EceBox"
+            app:layout_constraintEnd_toEndOf="@+id/EceBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/EceBox"
+            app:layout_constraintTop_toTopOf="@+id/EceBox"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/at_text" />
+
+        <ImageView
+            android:id="@+id/AT_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/EceBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/URPBox"/>
+
+        <ImageView
+            android:id="@+id/MathBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EceBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/ES"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/MathBox"
+            app:layout_constraintEnd_toEndOf="@+id/MathBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/MathBox"
+            app:layout_constraintTop_toTopOf="@+id/MathBox"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/es_text" />
+
+        <ImageView
+            android:id="@+id/ES_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/MathBox"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EceBox"
+            app:srcCompat="@drawable/es_icon" />
+
+        <ImageView
+            android:id="@+id/PhysicsBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MathBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/Pharmacy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/PhysicsBox"
+            app:layout_constraintEnd_toEndOf="@+id/PhysicsBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/PhysicsBox"
+            app:layout_constraintTop_toTopOf="@+id/PhysicsBox"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/pharmacy_text" />
+
+        <ImageView
+            android:id="@+id/Pharmacy_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/PhysicsBox"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MathBox"
+            app:srcCompat="@drawable/pharmacy_icon" />
+
+        <ImageView
+            android:id="@+id/ChemistryBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PhysicsBox"
+            app:srcCompat="@drawable/departmentbox" />
+
+        <ImageView
+            android:id="@+id/SWE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/ChemistryBox"
+            app:layout_constraintEnd_toEndOf="@+id/ChemistryBox"
+            app:layout_constraintHorizontal_bias="0.471"
+            app:layout_constraintStart_toStartOf="@+id/ChemistryBox"
+            app:layout_constraintTop_toTopOf="@+id/ChemistryBox"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/swt_text" />
+
+        <ImageView
+            android:id="@+id/SWT_Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/ChemistryBox"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PhysicsBox"
+            app:srcCompat="@drawable/swt_icon" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

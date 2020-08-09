@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class MBASchool extends AppCompatActivity {
 
-    public ImageView BAD, HRM;
+    private ImageView BAD, HRM;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

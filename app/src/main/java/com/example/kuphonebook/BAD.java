@@ -133,7 +133,7 @@ public class BAD extends AppCompatActivity {
                 number = "01711464303";
                 break;
             case R.id.bad24:
-                name = "Rafia Zaman\\nAssistant Professor";
+                name = "Rafia Zaman\nAssistant Professor";
                 number = "00000000000";
                 break;
 
